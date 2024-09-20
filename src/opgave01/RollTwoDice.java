@@ -30,7 +30,7 @@ public class RollTwoDice {
     private static void playTwoDice(){
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Rul to terning? ('ja/nej') ");
+        System.out.print("Rul to terninger? ('ja/nej') ");
         String answer = scanner.nextLine();
         while (!answer.equals("nej")) {
             int[] face = rollTwoDice();
@@ -40,7 +40,7 @@ public class RollTwoDice {
 
             updateStatistics();
 
-            System.out.print("Rul en terning? ('ja/nej') ");
+            System.out.print("Rul to terninger? ('ja/nej') ");
             answer = scanner.nextLine();
         }
 
