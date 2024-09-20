@@ -67,7 +67,7 @@ public class Pigs {
 
                 System.out.println("Du har hermed " + playerPoints[player - 1] + ".");
                 System.out.println();
-
+                return;
             }
 
             if(dieNumber == 1) {
@@ -170,6 +170,10 @@ public class Pigs {
             taberSpiller = 1;
             taberPoint = pointSpiller1;
         }
+
+        System.out.println();
+        System.out.println("--------------------------------------");
+        System.out.println();
 
         System.out.println("Spiller " + vinderSpiller + " har fundet Spillet!!");
         System.out.println("Spilleren fik " + vinderPoint);
