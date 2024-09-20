@@ -58,7 +58,7 @@ public class Pigs {
 
             dieNumber = throwTwoDie();
 
-            if(dieNumber == -1){
+            if(dieNumber == -1){ //Double 1
 
                 System.out.println();
                 System.out.println("Du har slået to 1'er, du har dermed mistede din tur og alle dine point");
@@ -70,7 +70,7 @@ public class Pigs {
                 return;
             }
 
-            if(dieNumber == 1) {
+            if(dieNumber == 1) { //Single 1
 
                 System.out.println();
                 System.out.println("Du har slået en 1'er, du har dermed mistede din tur");
