@@ -139,7 +139,7 @@ public class Pigs {
 
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.println("Vil du forsætte med at spille: ");
+        System.out.println("Vil du forsætte med at spille? ('ja/nej') ");
 
         String answear = keyboard.nextLine();
 

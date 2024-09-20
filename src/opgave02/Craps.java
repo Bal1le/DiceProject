@@ -86,7 +86,7 @@ public class Craps {
 
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.println("Vil du spille et spil mere? ");
+        System.out.println("Vil du spille et spil mere? ('ja/nej') ");
 
         String answear = keyboard.nextLine();
 
